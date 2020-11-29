@@ -1,8 +1,5 @@
 .DS_Store
 
-# Component lib directory
-lib
-
 # Logs
 logs
 *.log
