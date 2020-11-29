@@ -2,7 +2,7 @@
 
 React component to receive and place voice calls in the browser using Twilio.
 
-
+![LCN Twilio Caller](https://github.com/thelawcentresnetwork/lcn-twilio-caller/blob/main/demo/lcn-twilio-caller.gif)
 
 ## Setup
 
