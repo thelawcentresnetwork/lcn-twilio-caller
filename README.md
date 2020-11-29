@@ -4,6 +4,12 @@ React component to receive and place voice calls in the browser using Twilio.
 
 
 
+## Setup
+
+Twilio requires your app to generate a capability token before use, our component makes a POST request to `/twilio/capability` and expects a token back.
+
+A POST request will also be made to `/twilio/calls/answer` when a call is answered if you wish to log who answered a call in your application.
+
 ## Usage
 
 Wrap your React app in the `LCNTwilioCaller component` then use `this.props.dialOutgoing` to make calls.
