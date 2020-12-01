@@ -16,7 +16,7 @@ A POST request will also be made to `/twilio/calls/answer` when a call is answer
 
 ## Usage
 
-Wrap your React app in the `LCNTwilioCaller component` then use `this.props.dialOutgoing` to make calls.
+Wrap your React app in the `LCNTwilioCaller` component then use `this.props.dialOutgoing` to make calls.
 
 Incoming calls will automatically ring if the user has set themselves available.
 
@@ -28,7 +28,8 @@ import LCNTwilioCaller from 'lcn-twilio-caller';
     '+4400...',
     'Enquiry ID',
     'Current User ID',
-    'Caller ID'
+    'Contact Name',
+    'Contact ID'
   )
   <App />
 </LCNTwilioCaller>
