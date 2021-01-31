@@ -1,6 +1,6 @@
 {
     "name": "lcn-twilio-caller",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "description": "React component to receive and place voice calls in the browser using Twilio.",
     "homepage": "http://digital.lawcentres.org.uk",
     "keywords": [
@@ -36,10 +36,8 @@
     },
     "dependencies": {
         "axios": "^0.20.0",
-        "bootstrap": "^4.5.3",
         "react-toastify": "^6.0.8",
         "react-router-dom": "^5.2.0",
-        "twilio-client": "^1.13.0",
-        "react-bootstrap": "^1.3.0"
+        "twilio-client": "^1.13.0"
     }
 }
