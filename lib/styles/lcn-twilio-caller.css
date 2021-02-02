@@ -23,14 +23,14 @@
 
 .caller-availability .available-switch {
   color: #ffffff !important;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 1em;
   font-size: 0.8em;
 }
 
 .caller-availability .available-switch em {
   margin-right: 0.75em;
-  font-size: 0.9em;
+  font-size: 0.7em;
   background: #ffffff;
   border-radius: 100%;
   height: 25px;
@@ -38,7 +38,7 @@
   line-height: 26px;
   text-align: center;
   position: relative;
-  top: 0px;
+  top: -1px;
 }
 
 .caller-availability .available-switch.unavailable:hover em,
