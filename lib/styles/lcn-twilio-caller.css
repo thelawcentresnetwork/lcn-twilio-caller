@@ -38,7 +38,7 @@
   line-height: 26px;
   text-align: center;
   position: relative;
-  top: -1px;
+  top: -2px;
 }
 
 .caller-availability .available-switch.unavailable:hover em,
