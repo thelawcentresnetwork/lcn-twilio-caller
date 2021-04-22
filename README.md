@@ -55,6 +55,28 @@ def answer
 end
 ```
 
+### Toggling availability in your backend
+
+You can use the `availabilityEndpoint` and `availability` props to allow your backend to manage client availability. For example:
+
+```
+  <TwilioCaller
+    available={this.state.accept_incoming_calls}
+    availabilityEndpoint={'/caller/availability'}
+    ...
+  />
+
+```
+
+... as an example endpoint in Rails:
+
+```
+  def availability
+    current_user.toggle!(:accept_incoming_calls)
+    render json: { availability: current_user.availability }
+  end
+```
+
 ## Usage
 
 Wrap your React app in the `LCNTwilioCaller` component then use `this.props.dialOutgoing` to make calls. dialOutgoing accepts a number of parameters if you wish to pass the call or contact IDs and names between the caller and Twilio, otherwise these can be left blank.
